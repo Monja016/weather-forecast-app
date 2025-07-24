@@ -21,11 +21,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Seach" class="search-form-button" />
@@ -34,7 +35,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Pretoria</h1>
+            <h1 class="weather-app-city" id="city">Pretoria</h1>
             <p class="weather-app-details">
               Sunday 20:49, scattered clouds
               <br />
